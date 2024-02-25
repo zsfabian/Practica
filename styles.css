@@ -1,11 +1,11 @@
-/* Reset de estilos */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -57,4 +57,19 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+
+
+.contact-info p {
+    margin: 5px 0;
+    
+}
+
+.contact-info a {
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
 }
